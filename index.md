@@ -1,10 +1,10 @@
 ---
 layout: home2
 title: Me in a Nutshell
-description: "Arushi's website"
+description: "Sarang's website"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: salina.JPG
+  feature: ladakh.jpg
 ---
 
 I am currently a second-year PhD student in the VICO group with <a href="http://homepages.inf.ed.ac.uk/hbilen/index.html" target="_blank">Dr. Hakan Bilen</a> at the School of Informatics, University of Edinburgh. I am also fortunate to work closely with  <a href="https://homepages.inf.ed.ac.uk/keller/" target="_blank">Dr. Frank Keller</a> and  <a href="https://basurafernando.github.io/" target="_blank">Dr. Basura Fernando</a>. 
