@@ -1,6 +1,5 @@
 # My Personal Webpage
 
-goelarushi.github.io
+sarangshrivastava.github.io
 
-
-Thanks to Jordi for his amazing [website theme](http://jponttuset.github.io). 
+Thanks to Arushi Goel for her amazing [website theme](https://goelarushi.github.io/). 
