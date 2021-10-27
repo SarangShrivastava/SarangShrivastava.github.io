@@ -1,21 +1,21 @@
-title:            Arushi's site
+title:            Sarang's site
 description:      Welcome to my site.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              //goelarushi.github.io
+url:              //sarangshrivastava.github.io/
 #http://localhost:5000
 
-disqus_shortname: arushi
+disqus_shortname: sarang
 
 # Owner/author information
 owner:
-  name:           Arushi Goel
+  name:           Sarang Shrivastava
   avatar:         photo.jpg
-  bio:            Currently a Graduate Research Student. Passionate about computer vision, machine learning, and exploring - ideas, books and places.
-  email:          goel.arushi@gmail.com
+  bio:            Currently working as an Applied NLP scientist in Research and Development Lab of Goldman Sachs . Passionate about natural language processing, machine learning, and exploring - ideas, food and places.
+  email:          sarang24s@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  linkedin: arushi-goel27
-  google_scholar: tj08PZcAAAAJ&hl
-  github: goelarushi
+  linkedin: sarangshrivastava24
+  google_scholar: YNZbKJ4AAAAJ&hl
+  github: SarangShrivastava
 # Analytics and webmaster tools stuff goes here
 google_analytics: 
 google_verify:
@@ -35,7 +35,7 @@ links:
     url: /blog/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Singapore
+timezone:    India
 future:      true
 #pygments:    true
 highlighter: rouge
