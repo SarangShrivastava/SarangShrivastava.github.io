@@ -1,3 +1,64 @@
-theme: jekyll-theme-minimal
-title: Welcome to Sarang's page!
-description: This page contains my project details.
+title:            Arushi's site
+description:      Welcome to my site.
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+url:              //goelarushi.github.io
+#http://localhost:5000
+
+disqus_shortname: arushi
+
+# Owner/author information
+owner:
+  name:           Arushi Goel
+  avatar:         photo.jpg
+  bio:            Currently a Graduate Research Student. Passionate about computer vision, machine learning, and exploring - ideas, books and places.
+  email:          goel.arushi@gmail.com
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  linkedin: arushi-goel27
+  google_scholar: tj08PZcAAAAJ&hl
+  github: goelarushi
+# Analytics and webmaster tools stuff goes here
+google_analytics: 
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Curriculum
+    url: /cv/
+  - title: Publications
+    url: /publications/
+  - title: Research
+    url: /research/
+  - title: Blog
+    url: /blog/
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Singapore
+future:      true
+#pygments:    true
+highlighter: rouge
+markdown:    kramdown
+kramdown:
+  extensions: ["strikethrough"]
+  
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
