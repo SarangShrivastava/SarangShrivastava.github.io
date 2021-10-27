@@ -1,5 +1,3 @@
-## Welcome to my Page
-
 ### About Me
 Foo
 Bar
