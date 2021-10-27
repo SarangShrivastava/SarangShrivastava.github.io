@@ -1,0 +1,196 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<body class="page">
+<style>
+    /*********************************
+     The list of publication items
+     *********************************/
+/* The list of items */
+.biblist { }
+
+/* The item */
+.biblist li { }
+
+/* You can define custom styles for plstyle field here. */
+
+
+/*************************************
+ The box that contain BibTeX code
+ *************************************/
+div.noshow { display: none; }
+div.bibtex {
+	margin-right: 0%;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+	border: 1px solid silver;
+	padding: 0em 1em;
+	background: #ffffee;
+}
+div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;}</style>
+<script type="text/javascript">
+    <!--
+    // Toggle Display of BibTeX
+    function toggleBibtex(articleid) {
+        var bib = document.getElementById('bib_'+articleid);
+        if (bib) {
+            if(bib.className.indexOf('bibtex') != -1) {
+                bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+            }
+        } else {
+            return;
+        }
+    }
+-->
+    </script>
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http://' %}
+      "{{ page.image.feature }}"
+    {% elsif page.image.feature contains 'https://' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <div class="article-wrap">
+      {{ content }}
+
+
+
+<h4 style="margin-bottom:0px;padding-top:10px;">Selected Publications</h4>
+<ul class="biblist">
+<!-- Item: goel2019e -->
+<!-- Item: goel2019e -->
+<li ><p>
+  Arushi Goel, Basura Fernando, Thanh-Son Nguyen, Hakan Bilen
+  <br><b>Injecting Prior Knowledge into Image Caption Generation</b><br>
+  <i>In Proceedings of the European Conference on Computer Vision Workshops</i>, 369-385, 2020.
+  <br />
+  <a href="javascript:toggleBibtex('goel2020injecting')">[BibTeX]</a>
+  <a href="https://link.springer.com/chapter/10.1007/978-3-030-66096-3_26" target="_blank">[PDF]</a> <a href="https://drive.google.com/file/d/1TaOebeQCZsLUyUoZzPJzpCmV02Ix_l3F/view?usp=sharing"  target="_blank">[Slides]</a><a href="https://drive.google.com/file/d/1ZqQkgPfQblpJJlznqgp9jAxRVmeRVbjG/view?usp=sharing"  target="_blank">[Video]</a>
+  </p>
+  <div id="bib_goel2020injecting" class="bibtex noshow">
+  <pre>
+  @inproceedings{goel2020injecting,
+      title={Injecting Prior Knowledge into Image Caption Generation},
+      author={Goel, Arushi and Fernando, Basura and Nguyen, Thanh-Son and Bilen, Hakan},
+      booktitle={European Conference on Computer Vision},
+      pages={369--385},
+      year={2020},
+      organization={Springer}
+  }
+  
+  </pre>
+  </div>
+  </li>
+
+
+
+<li ><p>
+Arushi Goel, Ma Keng Teck and Cheston Tan
+<br><b>An End-to-End Network for Generating Social Relationship Graphs</b><br>
+<i>In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</i>, pp. 11186-11195, 2019.
+<br />
+<a href="javascript:toggleBibtex('goel2019end')">[BibTeX]</a>
+<a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Goel_An_End-To-End_Network_for_Generating_Social_Relationship_Graphs_CVPR_2019_paper.pdf" target="_blank">[PDF]</a> <a href="https://drive.google.com/file/d/1q0RtLwrCpR9yiBkXXB5EGwANyuT3L9qR/view?usp=sharing"  target="_blank">[Poster]</a>
+</p>
+<div id="bib_goel2019end" class="bibtex noshow">
+<pre>
+@inproceedings{goel2019end,
+  author = {Goel, Arushi and Ma, Keng Teck and Tan, Cheston},
+  title = {An End-to-End Network for Generating Social Relationship Graphs},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year = {2019},
+  pages = {11186--11195}
+}
+
+</pre>
+</div>
+</li>
+
+
+<li ><p>
+Tan Z-Xuan, Arushi Goel, Thanh-Son Nguyen and Desmond Ong
+<br><b>A multimodal LSTM for predicting listener empathic responses over time</b><br>
+<i>In 2019 14th IEEE International Conference on Automatic Face &amp; Gesture Recognition (FG 2019)</i>, pp. 1-4.
+<br />
+<a href="javascript:toggleBibtex('tan2019multimodal')">[BibTeX]</a>
+<a href="https://arxiv.org/abs/1812.04891" target="_blank">[PDF]</a> <a href="https://github.com/desmond-ong/cheem-omg-empathy"  target="_blank">[CODE]</a>
+<a href="https://drive.google.com/file/d/1Mt81wBCQWb2TB8WckGc_JsSksTwarhgn/view?usp=sharing" target="_blank">[Poster]</a>
+</p>
+<div id="bib_tan2019multimodal" class="bibtex noshow">
+<pre>
+@inproceedings{tan2019multimodal,
+  author = {Tan, Zhi-Xuan and Goel, Arushi and Nguyen, Thanh-Son and Ong, Desmond C},
+  title = {A multimodal LSTM for predicting listener empathic responses over time},
+  booktitle = {2019 14th IEEE International Conference on Automatic Face &amp; Gesture Recognition (FG 2019)},
+  year = {2019},
+  pages = {1--4}
+}
+</pre>
+</div>
+</li>
+
+<li ><p>
+Aliaksandr Huminski , Fiona Liausvia and Arushi Goel
+<br><b>Semantic Roles in VerbNet and FrameNet: Statistical Analysis and Evaluation</b><br>
+<i>International Conference on Intelligent Text Processing and Computational Linguistics (CICLing), 2019</i>
+<br />
+<a href="javascript:toggleBibtex('aliaksandr2019semantic')">[BibTeX]</a>
+<a href="https://drive.google.com/file/d/1gpBUqHlTu66OASqzN82jNm1OGB5xyjxd/view?usp=sharing" target="_blank">[PDF]</a> 
+</p>
+<div id="bib_aliaksandr2019semantic" class="bibtex noshow">
+<pre>
+@inproceedings{aliaksandr2019semantic,
+  author = {Huminski Aliaksandr, Liausvia Fiona and Goel Arushi},
+  title = {Semantic Roles in VerbNet and FrameNet: Statistical Analysis and Evaluation},
+  booktitle = {International Conference on Intelligent Text Processing and Computational Linguistics (CICLing), 2019},
+  year = {2019}
+}
+</pre>
+</div>
+</li>
+
+
+
+    </div><!-- /.article-wrap -->
+    {% if site.disqus_shortname and page.comments %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+  </article>
+</div><!-- /#index -->
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}          
+
+</body>
+</html>
