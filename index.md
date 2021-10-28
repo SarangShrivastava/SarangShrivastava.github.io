@@ -7,6 +7,8 @@ image:
   feature: ladakh.jpg.png
 ---
 
+I am currently working as an applied natural language processing scientist in the CoreAI group of Goldman Sachs. I am fortunate to work closely with < a href="https://scholar.google.com/citations?user=yT1DBNsAAAAJ&hl=en" target="_blank"> Dr. Vijay Saraswat </a>, Dr. Johannes Hoffart and Dr. Luciano Del Corro.
+
 I am currently a second-year PhD student in the VICO group with <a href="http://homepages.inf.ed.ac.uk/hbilen/index.html" target="_blank">Dr. Hakan Bilen</a> at the School of Informatics, University of Edinburgh. I am also fortunate to work closely with  <a href="https://homepages.inf.ed.ac.uk/keller/" target="_blank">Dr. Frank Keller</a> and  <a href="https://basurafernando.github.io/" target="_blank">Dr. Basura Fernando</a>. 
       
 <br />Previously, I spend some wonderful years in Singapore working as a Research Engineer at <a href="https://www.a-star.edu.sg" target="_blank">A*STAR AI Initiative</a>.
