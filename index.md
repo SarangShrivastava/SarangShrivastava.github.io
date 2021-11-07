@@ -15,7 +15,7 @@ I am currently working as a natural language processing researcher in the CoreAI
 
 <br /> I want to leverage visual, structural and textual information in natural language and feed it into machines to help them learn better representations and reason with text just like a human does. A direction that I would love to explore further but not limited to would be in the field of Multi-modal Long Document AI.
 <br />
-
+<br />
 I majored in computer science and engineering as a bachelor student, eventually finding passion for natural language processing and it’s applications.
 <br />
 <br />
