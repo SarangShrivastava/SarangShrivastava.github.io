@@ -1,31 +1,33 @@
 ---
 layout: projects
 permalink: /projects/
-title: 
+title: Projects and Blogs
 tags: [projects]
 modified: 26-7-2019
 comments: false
 ---
 
-### 1) [**Mathematical Constraint Extraction - Extraction of Negative Covenants from Credit Agreements**](http://)<br>
+### 1) [**Mathematical Constraint Extraction - Extraction of Negative Covenants from Credit Agreements**](http://{ site.url }}/negative)<br>
 
-   <img src="{{ site.url }}/images/negative_covenants_2.png" alt="Forest" style="width:70%">
+   <p align="center"><img src="{{ site.url }}/images/negative_covenants_2.png" alt="Forest" style="width:70%"></p>
 
 ### 2) [**Ternary Relation extraction in Prospectuses**](http://{{ site.url }}/relation)<br>
 
-  <img src="{{ site.url }}/images/relation-extraction-1.png" alt="Dp1" style="width:70%">
+  <p align="center"><img src="{{ site.url }}/images/relation-extraction-1.png" alt="Dp1" style="width:70%"></p>
 
-### 3) [**Stanza Graph Construction**](http://{{ site.url }}/stanza)<br>
+### 3) [**Nuances in legal text**](http://{{ site.url }}/nuances)<br>
 
-  <img src="{{ site.url }}/images/Stanza-2.png" alt="Forest" style="width:70%">
+  <p align="center"><img src="{{ site.url }}/images/finance_nuance.png" alt="Dp2" style="width:70%"></p>
 
-### 4) [**Reading order detection on Directory pages**](http://{{ site.url }}/directory)<br>
+### 4) [**Stanza Graph Construction**](http://{{ site.url }}/stanza)<br>
 
-  <img src="{{ site.url }}/images/directory-page-2.png" alt="Dp2" style="width:70%">
+  <p align="center"><img src="{{ site.url }}/images/Stanza-2.png" alt="Forest" style="width:70%"></p>
 
-### 5) [**Nuances in legal text**](http://)<br>
+### 5) [**Reading order detection on Directory pages**](http://{{ site.url }}/directory)<br>
 
-  <img src="{{ site.url }}/images/directory-page-2.png" alt="Dp2" style="width:70%">
+  <p align="center"><img src="{{ site.url }}/images/directory-page-2.png" alt="Dp2" style="width:70%"></p>
+
+
 
 
 
