@@ -1,0 +1,89 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+<style>
+  .bottom-three {
+     margin-bottom: 1.5cm;
+   }
+  .bottom-small {
+     margin-bottom: 1cm;
+   }
+</style>
+</head>
+
+<body class="page">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http://' %}
+      "{{ page.image.feature }}"
+    {% elsif page.image.feature contains 'https://' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <div class="article-wrap">
+    <p align="center" class=bottom-small><img src="{{ site.url }}/images/CV/business.png" alt="Work Experience" width="70" height="70"></p>
+    <p align="center">&#8226 I am an <strong>Applied Scientist Intern</strong> at <strong>Amazon Alexa AI</strong>.</p>
+    <p align="center">&#8226 I was a <strong>Research Engineer</strong> at <a href="https://www.a-star.edu.sg" target="_blank">A*STAR AI Initiative in Singapore</a>.</p>
+    <p align="center">&#8226 I was a research assistant at <strong>Nanyang Technological University</strong> in <a href="https://www.ntu.edu.sg/home/assklam/" target="_blank">Prof. Lam Siew Kei's Lab</a>.</p>
+    <p align="center" class="bottom-three">&#8226 I did a research internship at <strong>University of Edinburgh</strong> with <a href="http://homepages.inf.ed.ac.uk/rbf/" target="_blank">Prof. Bob Fisher</a>.</p>
+    <p align="center" class=bottom-small><img src="{{ site.url }}/images/CV/study2.png" alt="Education" width="70" height="70"></p>
+    <p align="center">&#8226 I am a second-year <strong>PhD</strong> student at the <strong>University of Edinburgh</strong> supervised by <a href="http://homepages.inf.ed.ac.uk/hbilen/" target="_blank">Prof. Hakan Bilen</a>.</p>
+    <p align="center" class="bottom-three">&#8226 I received a <strong>Electronics and Communication</strong> engineering degree from IIIT Allahabad, India</a>.</p>
+    <p align="center" class=bottom-small><img src="{{ site.url }}/images/CV/computer2.png" alt="Computer Skills" width="70" height="70"></p>
+    <p align="center">&#8226 I use <strong>Python</strong> for efficient coding and testing. Previously, I have used MATLAB and C++ for development and prototyping.</p>
+    <p align="center">&#8226 Want me to develop solutions for machine learning? I go for <strong>PyTorch and Tensorflow</strong>. Still I will play with Caffe and MATLAB, if projects ask me.</p>
+    <p align="center" class="bottom-three">&#8226 If I have enough time, I love to look at Kaggle or other Data Science datasets and challenges.</p>
+
+    <p align="center" class=bottom-small><img src="{{ site.url }}/images/CV/talk.png" alt="Languages" width="70" height="70"></p>
+    <p align="center">&#8226 Hindi is my mother tongue.</p>
+    <p align="center" class="bottom-three">&#8226 My <strong>English</strong> is proficient [<a href="https://drive.google.com/file/d/1fLZT7ImHIdFY6CPhMh64fD_PEZhvgH-z/view?usp=sharing"> TOEFL score</a>]. <!--and a bunch of papers is enough to prove that.</p> -->
+
+
+
+
+
+
+
+
+
+    {{ content }}
+    </div><!-- /.article-wrap -->
+    {% if site.disqus_shortname and page.comments %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+  </article>
+</div><!-- /#index -->
+
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}
+
+</body>
+</html>

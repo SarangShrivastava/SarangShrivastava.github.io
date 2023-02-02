@@ -1,8 +1,8 @@
 ---
-layout: page
-permalink: /research/
-title: Research
-tags: [research]
+layout: projects
+permalink: /projects/
+title: Projects
+tags: [projects]
 modified: 26-7-2019
 comments: false
 ---
