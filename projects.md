@@ -9,7 +9,7 @@ comments: false
 
 ## Projects
 
-* [**Stanza Graph Construction**](http://)<br>
+### 1) [**Stanza Graph Construction**](http://)<br>
 
     <img src="{{ site.url }}/images/stanza-1.png" alt="Snow" style="width:100%">
     
@@ -25,12 +25,27 @@ representation for the entire document
   
     <img src="{{ site.url }}/images/Stanza-2.png" alt="Forest" style="width:100%">
 
-* [**Social Relationship Understanding**](http://)<br>
+### 2) [**Reading order detection on Directory pages**](http://)<br>
 
+    <img src="{{ site.url }}/images/directory-page-1.png" alt="Dp1" style="width:100%">
+      
+      * Curated a dataset depicting the reading order for the Directory page documents
+      * Proposed a novel set of features and trained a random forest model for identifying Directory pages(
+      usually a couple of pages in a 300 page long document) in Prospectuses
+      * Proposed and implemented parsing of text present in directory pages in a tree-structured format. This
+      enabled downstream Relation extraction tasks to be performed with ease
+    
+      <img src="{{ site.url }}/images/directory-page-2.png" alt="Dp2" style="width:100%">
 
-* [**Facial Emotion Recognition**](http://)<br>
+### * [**Ternary Relation extraction in Prospectuses**](http://)<br>
 
+      <img src="{{ site.url }}/images/relation-extraction-1.png" alt="Dp1" style="width:100%">
+      
+      * Answering questions like ”Who is the Legal advisor of Amazon for this fund offerring?
+      * Curated a ternary relation extraction dataset amongst organizations, person names and roles
+      * Developed a BERT-based model leveraging entity markers to enrich entity embeddings sent to the relation head
+      * Reduced review time of cases from a few hours to a couple of minutes when a new onboarding of a client takes place
 
-* [**Empathy Prediction**](http://)<br>
+### * [**Mathematical Constraint Extraction - Extraction of Negative Covenants from Credit Agreements**](http://)<br>
 
 
