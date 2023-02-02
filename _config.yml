@@ -27,12 +27,12 @@ bing_verify:
 links:
   - title: Curriculum
     url: /cv/
-  - title: Publications
-    url: /publications/
+#  - title: Publications
+#    url: /publications/
   - title: Projects
     url: /projects/
-  - title: Blog
-    url: /blog/
+#  - title: Blog
+#    url: /blog/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    PST (US West Coast)
