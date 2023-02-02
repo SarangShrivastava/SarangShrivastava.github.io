@@ -1,13 +1,13 @@
 ---
 layout: projects
 permalink: /projects/
-title: Projects
+title: 
 tags: [projects]
 modified: 26-7-2019
 comments: false
 ---
 
-### Research
+## Projects
 
 * [**Stanza Graph Construction**](http://)<br>
 
