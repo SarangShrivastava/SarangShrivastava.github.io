@@ -2,7 +2,7 @@
 layout: projects
 permalink: /directory/
 title: Reading Order Detection on Directory pages
-tags: [stanza]
+tags: [directory]
 modified: 26-7-2019
 comments: false
 ---

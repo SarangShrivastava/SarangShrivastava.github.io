@@ -1,8 +1,8 @@
 ---
 layout: projects
-permalink: /directory/
+permalink: /relation/
 title: Ternary Relation extraction in Prospectuses
-tags: [stanza]
+tags: [relation]
 modified: 26-7-2019
 comments: false
 ---
