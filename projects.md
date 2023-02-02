@@ -9,7 +9,7 @@ comments: false
 
 ## Projects
 
-### 1) [**Stanza Graph Construction**](http://)<br>
+### 1) [**Stanza Graph Construction**](http://{{ site.url }}/projects.md)<br>
 
     <img src="{{ site.url }}/images/stanza-1.png" alt="Snow" style="width:100%">
     
