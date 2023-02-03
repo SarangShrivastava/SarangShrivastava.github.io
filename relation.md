@@ -72,7 +72,9 @@ documents. The task here can get quite complicated very easily. Just by adding a
 1)   A , B acts as C , D to E and F     
 2)   A , B acts as C , D to E and F respectively 
 
+<pre>
 
+</pre>
 
 <p align="justify">
 We curated a ternary relation extraction dataset amongst organizations, person names and roles. We then used a BERT 
