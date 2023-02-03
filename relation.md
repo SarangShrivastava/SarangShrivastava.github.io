@@ -7,7 +7,7 @@ modified: 26-7-2019
 comments: false
 ---
 
-<img src="{{ site.url }}/images/relation-extraction-0.png" alt="Dp1" style="width:100%">
+<img src="{{ site.url }}/images/relation-extraction-0.png" alt="Dp1" style="width:100%"> <br>
 
 <p align="justify">
 Documents in the Client Onboarding space of the financial 
@@ -27,7 +27,7 @@ existing technology (e.g. retraining of models based on GS data-sets, developmen
 these techniques), some require new research and some require the development of completely new 
 approaches. </p><br>
 
-<p align="center"><img src="{{ site.url }}/images/relation-extraction-3.png" alt="Dp1" style="width:50%"></p>
+<p align="center"><img src="{{ site.url }}/images/relation-extraction-3.png" alt="Dp1" style="width:50%"></p> <br>
 
 <p align="justify">
 The Named Entity Recognition task in general can span from identifying a few tokens like  in the case of Persons or 
@@ -43,7 +43,7 @@ the box. Spacy underneath the hood uses a CNN based neural architecture with a f
 released which supports fine tuning of transformer based architectures as well.</p> <br>
 
 <p align="center">
-<img src="{{ site.url }}/images/relation-extraction-4.png" alt="Dp1" style="width:50%"> </p>
+<img src="{{ site.url }}/images/relation-extraction-4.png" alt="Dp1" style="width:50%"> </p> <br>
 
 <p align="justify">
 Since address extraction is much more custom and complex in nature, we used a BERT 
@@ -59,7 +59,7 @@ expectations and we forced us to develop our own gazetteer for this. </p> <br>
 <img src="{{ site.url }}/images/relation-extraction-5.png" alt="Dp1" style="width:75%"></p> <br>
 
 <p align="center">
-<img src="{{ site.url }}/images/relation-extraction-1.png" alt="Dp1" style="width:75%"></p> 
+<img src="{{ site.url }}/images/relation-extraction-1.png" alt="Dp1" style="width:75%"></p> <br>
 
 <p align="justify"> 
 Now lets look at the Relation extraction tasks. Be it identification of the address of a particular organization or 
@@ -69,7 +69,7 @@ documents. The task here can get quite complicated very easily. Just by adding a
 , the number of relations present in the examples below changes. </p> <br>
 
 1)   A , B acts as C , D to E and F     
-2)   A , B acts as C , D to E and F respectively 
+2)   A , B acts as C , D to E and F respectively <br>
 
 <p align="justify">
 We curated a ternary relation extraction dataset amongst organizations, person names and roles. We then used a BERT 
