@@ -1,7 +1,7 @@
 ---
 layout: projects
 permalink: /nuances/
-title: Nuances in Legal text
+title: Text is not Text: Nuances of Legal text
 tags: [nuances]
 modified: 26-7-2019
 comments: false
@@ -9,19 +9,48 @@ comments: false
 
    <img src="{{ site.url }}/images/finance_nuance.png" alt="Dp1" style="width:100%">
 
-   The financial industry is built on data and information. Over the coming years, AI can transform the way this information is developed, communicated and deployed.  We build systems that realize this vision of AI: systems that leverage background knowledge, learn from experience, explain themselves and interact naturally with professionals. We do all of this in the context of concrete applications for our business partners which is of use to them today.
+   <p align="justify">
+   The financial industry is built on data and information. Over the coming years, AI can transform 
+   the way this information is developed, communicated and deployed.  We build systems that realize 
+   this vision of AI: systems that leverage background knowledge, learn from experience, explain 
+   themselves and interact naturally with professionals. We do all of this in the context of 
+   concrete applications for our business partners which is of use to them today. </p>>
  
-   If we look at the past decade, The landscape of NLP and NLU in general has changed drastically. We have come a long way from word Embeddings and recurrent neural networks to the transformer/self attention based architectures to the latest buzz word in the industry GPT 3 which has about 175 billion parameters. 
+   <p align="justify">
+   If we look at the past decade, The landscape of NLP and NLU in general has changed drastically. 
+   We have come a long way from word Embeddings and recurrent neural networks to the 
+   transformer/self attention based architectures to the latest buzz word in the industry GPT 3 
+   which has about 175 billion parameters. </p>
 
-   We believe extraction of knowledge from documents revolves around two key concepts  -  understanding the structure of documents and exploiting the semantics of the language in these documents.
+   We believe extraction of knowledge from documents revolves around two key concepts  -  
+   understanding the structure of documents and exploiting the semantics of the language in these
+   documents.
 
-   We are guided by the vision that the finance industry runs on documents, and it will be fundamentally reshaped by the development of a computational system that can extract knowledge from millions of documents (in minutes), represent it in knowledge bases, link with existing databases, and deploy this knowledge for a large variety of professional tasks.
+   We are guided by the vision that the finance industry runs on documents, and it will be 
+   fundamentally reshaped by the development of a computational system that can extract knowledge 
+   from millions of documents (in minutes), represent it in knowledge bases, link with existing 
+   databases, and deploy this knowledge for a large variety of professional tasks.
 
-   To achieve this vision, we need to thoroughly understand the financial documents with which we deal with on a day to day basis. These documents are carefully written by professionals, typically designed to be precise and unambiguous. Typical examples can be prospectuses, memoranda of association, trust agreements, credit agreements, NDAs, investment management agreements M&A etc, the list just goes on and on. These may be made available as pdfs which are typically programmatic but sometimes scanned as well. Sometimes they are available in formats that are higher level than pdf, such as Word, HTML, XML etc.
+   To achieve this vision, we need to thoroughly understand the financial documents with 
+   which we deal with on a day to day basis. These documents are carefully written by 
+   professionals, typically designed to be precise and unambiguous. Typical examples can be 
+   prospectuses, memoranda of association, trust agreements, credit agreements, NDAs, investment 
+   management agreements M&A etc, the list just goes on and on. These may be made available as 
+   pdfs which are typically programmatic but sometimes scanned as well. Sometimes they are 
+   available in formats that are higher level than pdf, such as Word, HTML, XML etc.
 
-   Documents are not just a big blob of running text, they are much more than that. Now lets get into the details of why they are different from vanilla running text.
+   Documents are not just a big blob of running text, they are much more than that. Now lets 
+   get into the details of why they are different from vanilla running text.
 
-   The below image is a snippet of a title page which usually talks about the entity name, some details about the type of the document and other similar facts scattered across the page.  Similar to this there are Directory pages which present information in an irregular, visually-organized, two-dimensional format. Directory pages are fairly common in financial prospectuses and carry information about organizations, their addresses and relationships between those  ; and understanding their structure is a key to various business tasks.  Another example of this sort can be signature pages which are often accompanied by a lot of hand written text and identifying things like the signature blocks becomes crucial to figure out if a given agreement is executed or not.
+   The below image is a snippet of a title page which usually talks about the entity name, 
+   some details about the type of the document and other similar facts scattered across the page.
+   Similar to this there are Directory pages which present information in an irregular, 
+   visually-organized, two-dimensional format. Directory pages are fairly common in financial 
+   prospectuses and carry information about organizations, their addresses and relationships 
+   between those  ; and understanding their structure is a key to various business tasks. 
+   Another example of this sort can be signature pages which are often accompanied by a lot of
+   hand written text and identifying things like the signature blocks becomes crucial to figure 
+   out if a given agreement is executed or not.
 
    <img src="{{ site.url }}/images/nuance-1.png" alt="Dp1" style="width:100%">
 
