@@ -68,8 +68,9 @@ input again is the key here. These relationships are present both in the structu
 documents. The task here can get quite complicated very easily. Just by adding an extra word towards the end of the sentence 
 , the number of relations present in the examples below changes. </p> <br>
 
+<p align="left"> 
 1)   A , B acts as C , D to E and F     
-2)   A , B acts as C , D to E and F respectively <br>
+2)   A , B acts as C , D to E and F respectively </p>><br>
 
 <p align="justify">
 We curated a ternary relation extraction dataset amongst organizations, person names and roles. We then used a BERT 
