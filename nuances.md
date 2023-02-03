@@ -45,6 +45,8 @@ comments: false
    <p align="justify">
    Documents are not just a big blob of running text, they are much more than that. Now lets 
    get into the details of why they are different from vanilla running text. </p>
+   
+   <p align="center"><img src="{{ site.url }}/images/nuance-complete.png" alt="Dp1" style="width:75%"></p>
 
    <p align="justify">
    The below image is a snippet of a title page which usually talks about the entity name, 
