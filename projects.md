@@ -7,21 +7,21 @@ modified: 26-7-2019
 comments: false
 ---
 
-### 1) [**Extracting mathematical constraints from legal text**](http://{ site.url }}/negative)<br>
+### 1) [**Extracting mathematical constraints from credit agreements**](http://{ site.url }}/negative)<br>
 
    <p align="center"><img src="{{ site.url }}/images/negative_covenants_2.png" alt="Forest" style="width:70%"></p>
 
-### 2) [**Understanding and resolving hierarchical table structure **](http://{ site.url }}/table)<br>
+### 2) [**Understanding and resolving hierarchical table structure**](http://{ site.url }}/table)<br>
 
    <p align="center"><img src="{{ site.url }}/images/table.png" alt="table" style="width:70%"></p>
 
-### 3) [**Ternary Relation extraction in Prospectuses**](http://{{ site.url }}/relation)<br>
-
-  <p align="center"><img src="{{ site.url }}/images/relation-extraction-1.png" alt="Dp1" style="width:70%"></p>
-
-### 4) [**Nuances in legal text**](http://{{ site.url }}/nuances)<br>
+### 3) [**Text is not Text : Nuances of legal text**](http://{{ site.url }}/nuances)<br>
 
   <p align="center"><img src="{{ site.url }}/images/finance_nuance.png" alt="Dp2" style="width:70%"></p>
+
+### 4) [**Ternary relation extraction in prospectuses**](http://{{ site.url }}/relation)<br>
+
+  <p align="center"><img src="{{ site.url }}/images/relation-extraction-1.png" alt="Dp1" style="width:70%"></p>
 
 ### 5) [**Stanza Graph Construction**](http://{{ site.url }}/stanza)<br>
 

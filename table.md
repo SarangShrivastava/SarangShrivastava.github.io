@@ -7,14 +7,12 @@ modified: 26-7-2019
 comments: false
 ---
 
-  <img src="{{ site.url }}/images/stanza-1.png" alt="Snow" style="width:100%">
+  <img src="{{ site.url }}/images/table.png" alt="Snow" style="width:100%">
     
-  * Task - Identifying Section headers, Distinguishing Enumeration lists start ( folded and unfolded ) with Section references and finding hierarchy between them
-  * Curated a span detection dataset for section starts and section references from Credit agreements
-  * Developed a model for distinguishing between sections starts and section references using BERT and
-CNN-based technique
-  * Developed an algorithm for finding links between various section starts and created a tree-based
-representation for the entire document
-  * Converted a raw pdf document into a navigable HTML for faster navigation and readability
-    
-  <img src="{{ site.url }}/images/Stanza-2.png" alt="Forest" style="width:100%">
+ While many pipelines for extracting information from tables assume simple table structure, tables in the financial domain frequently have complex, hierarchical structure. The main example would be parent-child relationships between header cells.
+
+The tables are selected from IBM FinTabNet, a much larger dataset of more than 100,000 financial tables having cell, row, and column bounding boxes extracted by deep learning, but not including semantic cell type or cell-to-cell relation labels, which we add.
+
+We fine-tune models based on LayoutLM on the cell-type classification task and on the identification of hiearchical relations among column headers. We achieve F1 scores of 95% and 70% on the respective tasks.
+
+
