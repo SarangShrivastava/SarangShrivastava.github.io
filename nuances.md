@@ -14,7 +14,7 @@ comments: false
    the way this information is developed, communicated and deployed.  We build systems that realize 
    this vision of AI: systems that leverage background knowledge, learn from experience, explain 
    themselves and interact naturally with professionals. We do all of this in the context of 
-   concrete applications for our business partners which is of use to them today. </p>>
+   concrete applications for our business partners which is of use to them today. </p>
  
    <p align="justify">
    If we look at the past decade, The landscape of NLP and NLU in general has changed drastically. 
