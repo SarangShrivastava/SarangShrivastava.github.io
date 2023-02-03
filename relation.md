@@ -9,6 +9,7 @@ comments: false
 
 <img src="{{ site.url }}/images/relation-extraction-0.png" alt="Dp1" style="width:100%">
 
+<p align="justify">
 Documents in the Client Onboarding space of the financial 
 industry are rich with legal entities and their functions. These document are very long and they have information present in 
 both structured and non structured format. People want to know what kind of a customer document is this 
@@ -17,16 +18,18 @@ on-boarded, what are their roles, addresses etc.? Is there documentation that th
 capacity to buy specific products from us? Has the beneficial owner authorized the counterparty to
 operate on their behalf? Is the document executed? What is its effective date? These are some of 
 the key facts that people are after and it requires us to understand the semantics of the language
-of these documents. 
+of these documents. </p>
 
+<p align="justify">
 The technical challenges behind addressing these tasks are diverse, immense and exciting. Some of 
 them are achievable by directly using products in the marketplace, some require adaptation of 
 existing technology (e.g. retraining of models based on GS data-sets, development of variants of 
 these techniques), some require new research and some require the development of completely new 
-approaches. 
+approaches. </p>
 
-<img src="{{ site.url }}/images/relation-extraction-3.png" alt="Dp1" style="width:100%">
+<p align="center"><img src="{{ site.url }}/images/relation-extraction-3.png" alt="Dp1" style="width:75%"></p>
 
+<p align="justify">
 The Named Entity Recognition task in general can span from identifying a few tokens like  in the case of Persons or 
 Organizations to Addresses which are pretty long. People are specifically interested in knowing 
 the various entities that are being talked about in these documents with their registered 
@@ -37,10 +40,12 @@ they have learnt some latent representations to represent entities and we would 
 it. In order to leverage transfer learning, we created our own dataset and 
 fine tuned Spacy. As expected we got much better results that what Spacy provided out of 
 the box. Spacy underneath the hood uses a CNN based neural architecture with a few tweaks. Lately, Spacy 3.0 was 
-released which supports fine tuning of transformer based architectures as well.
+released which supports fine tuning of transformer based architectures as well.</p>
 
-<img src="{{ site.url }}/images/relation-extraction-4.png" alt="Dp1" style="width:100%">
+<p align="center">
+<img src="{{ site.url }}/images/relation-extraction-4.png" alt="Dp1" style="width:75%"> </p>
 
+<p align="justify">
 Since address extraction is much more custom and complex in nature, we used a BERT 
 base backbone with a token classification head on top of it to solve this. To give a brief 
 insight about the complexity around addresses, addresses of every country are represented in a 
@@ -48,29 +53,35 @@ different formats, lines like C/O Org are often appended at the beginning of the
 Addresses that are parts of islands are even more complex as there might not be a standard 
 concept of cities and states in them. We used Libpostal to parse these address spans but 
 unfortunately since it is trained on street addresses from google, it did not perform upto our 
-expectations and we forced us to develop our own gazetteer for this. 
+expectations and we forced us to develop our own gazetteer for this. </p>
 
-<img src="{{ site.url }}/images/relation-extraction-5.png" alt="Dp1" style="width:100%">
+<p align="center">
+<img src="{{ site.url }}/images/relation-extraction-5.png" alt="Dp1" style="width:75%"></p>
 
-<img src="{{ site.url }}/images/relation-extraction-1.png" alt="Dp1" style="width:100%">
+<p align="center">
+<img src="{{ site.url }}/images/relation-extraction-1.png" alt="Dp1" style="width:75%"></p>
 
+<p align="justify"> 
 Now lets look at the Relation extraction tasks. Be it identification of the address of a particular organization or 
 identifying their aliases, both the tasks are relation extraction tasks at the ground level. The variability in the 
 input again is the key here. These relationships are present both in the structured / unstructured manner in these 
 documents. The task here can get quite complicated very easily. Just by adding an extra word towards the end of the sentence 
-, the number of relations present in the examples below changes.
+, the number of relations present in the examples below changes. </p>
 
 1)   A , B acts as C , D to E and F     
 2)   A , B acts as C , D to E and F respectively 
 
+<p align="justify">
 We curated a ternary relation extraction dataset amongst organizations, person names and roles. We then used a BERT 
 based backbone with a relation head on top of it to solve this problem.  An important part of this 
 task was to decide which specific token embedding should we forward to the relation head. There are many 
 techniques involved where people used max pooling or averaging all the token embeddings that represents the entities
 and feed that to the relation layer. To make the network aware of the presence of specific tokens, we also used entity
-markers around the Orgs and roles which helped us to achieve better results. 
+markers around the Orgs and roles which helped us to achieve better results. </p>
 
+<p align="justify">
 By implementing these entity and relation extraction models, we reduced review time of cases from a few hours to a 
-couple of minutes when a new onboarding of a client takes place
+couple of minutes when a new onboarding of a client takes place </p>
 
-<img src="{{ site.url }}/images/relation-extraction-2.png" alt="Dp1" style="width:100%">
+<p align="center">
+<img src="{{ site.url }}/images/relation-extraction-2.png" alt="Dp1" style="width:75%"></p>
