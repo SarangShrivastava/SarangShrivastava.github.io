@@ -7,7 +7,7 @@ modified: 26-7-2019
 comments: false
 ---
 
-### 1) [**Extracting mathematical constraints from credit agreements**](http://{ site.url }}/negative)<br>
+### 1) [**Extracting mathematical constraints from credit agreements**](http://{ site.url }}/negative-covenants)<br>
 
    <p align="center"><img src="{{ site.url }}/images/negative_covenants_2.png" alt="Forest" style="width:70%"></p>
 

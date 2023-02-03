@@ -17,10 +17,10 @@ comments: false
    concrete applications for our business partners which is of use to them today. </p> <br>
  
    <p align="justify">
-   If we look at the past decade, The landscape of NLP and NLU in general has changed drastically. 
-   We have come a long way from word Embeddings and recurrent neural networks to the 
-   transformer/self attention based architectures to the latest buzz word in the industry GPT 3 
-   which has about 175 billion parameters. </p> <br>
+   If we look at the past decade, The landscape of NLP and NLU, in general, has changed drastically.
+We have come a long way from word embeddings and recurrent neural networks to the 
+transformer/self-attention-based architectures to the latest buzzword in the industry GPT 3 
+which has about 175 billion parameters </p> <br>
 
    <p align="justify">
    We believe extraction of knowledge from documents revolves around two key concepts  -  
