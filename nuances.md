@@ -14,13 +14,13 @@ comments: false
    the way this information is developed, communicated and deployed.  We build systems that realize 
    this vision of AI: systems that leverage background knowledge, learn from experience, explain 
    themselves and interact naturally with professionals. We do all of this in the context of 
-   concrete applications for our business partners which is of use to them today. </p>
+   concrete applications for our business partners which is of use to them today. </p> <br>
  
    <p align="justify">
    If we look at the past decade, The landscape of NLP and NLU in general has changed drastically. 
    We have come a long way from word Embeddings and recurrent neural networks to the 
    transformer/self attention based architectures to the latest buzz word in the industry GPT 3 
-   which has about 175 billion parameters. </p>
+   which has about 175 billion parameters. </p> <br>
 
    <p align="justify">
    We believe extraction of knowledge from documents revolves around two key concepts  -  
@@ -57,7 +57,7 @@ comments: false
    hand written text and identifying things like the signature blocks becomes crucial to figure 
    out if a given agreement is executed or not. </p>
 
-   <img src="{{ site.url }}/images/nuance-1.png" alt="Dp1" style="width:75%">
+   <p align="center"><img src="{{ site.url }}/images/nuance-1.png" alt="Dp1" style="width:75%"></p>
 
    <p align="justify">
    The text in these documents  is formally organized into sections and sub sections. There are 
