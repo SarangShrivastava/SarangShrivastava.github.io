@@ -1,7 +1,7 @@
 ---
 layout: projects
 permalink: /relation/
-title: Ternary Relation extraction in Prospectuses
+title: From Structure to Knowledge
 tags: [relation]
 modified: 26-7-2019
 comments: false
