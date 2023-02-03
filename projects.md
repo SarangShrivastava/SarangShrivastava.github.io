@@ -7,18 +7,22 @@ modified: 26-7-2019
 comments: false
 ---
 
-### 3) [**Text is not Text : Nuances of legal text**](http://{{ site.url }}/nuances)<br>
+### 1) [**Text is not Text : Nuances of legal text**](http://{{ site.url }}/nuances)<br>
 
   <p align="center"><img src="{{ site.url }}/images/finance_nuance.png" alt="p1" style="width:70%"></p>
 
+### 2) [**Extracting mathematical constraints from credit agreements**](http://{{ site.url }}/negative-covenants)<br>
 
-### 1) [**Extracting mathematical constraints from credit agreements**](http://{ site.url }}/negative-covenants)<br>
+  <p align="center"><img src="{{ site.url }}/images/negative_covenants_2.png" alt="p1" style="width:70%"></p>
 
-   <p align="center"><img src="{{ site.url }}/images/negative_covenants_2.png" alt="p2" style="width:70%"></p>
 
-### 2) [**Understanding and resolving hierarchical table structure**](http://{ site.url }}/fin-table)<br>
+[comment]: <> (### 1&#41; [**Extracting mathematical constraints from credit agreements**]&#40;http://{ site.url }}/negative-covenants&#41;<br>)
 
-   <p align="center"><img src="{{ site.url }}/images/table.png" alt="p3" style="width:70%"></p>
+[comment]: <> (   <p align="center"><img src="{{ site.url }}/images/negative_covenants_2.png" alt="p2" style="width:70%"></p>)
+
+[comment]: <> (### 2&#41; [**Understanding and resolving hierarchical table structure**]&#40;http://{ site.url }}/fin-table&#41;<br>)
+
+[comment]: <> (   <p align="center"><img src="{{ site.url }}/images/table.png" alt="p3" style="width:70%"></p>)
 
 [comment]: <> (### 3&#41; [**Text is not Text : Nuances of legal text**]&#40;http://{{ site.url }}/nuances&#41;<br>)
 
