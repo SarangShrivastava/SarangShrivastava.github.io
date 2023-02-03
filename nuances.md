@@ -6,9 +6,9 @@ tags: [nuances]
 modified: 26-7-2019
 comments: false
 ---
-
+   
    <img src="{{ site.url }}/images/finance_nuance.png" alt="Dp1" style="width:100%">
-
+   
    <p align="justify">
    The financial industry is built on data and information. Over the coming years, AI can transform 
    the way this information is developed, communicated and deployed.  We build systems that realize 
@@ -48,8 +48,8 @@ comments: false
    
    <p align="center"><img src="{{ site.url }}/images/nuance-complete.png" alt="Dp1" style="width:100%"></p>
 
-   <p align="justify">
-   * The below image is a snippet of a title page which usually talks about the entity name, 
+   * <p align="justify">
+   The below image is a snippet of a title page which usually talks about the entity name, 
    some details about the type of the document and other similar facts scattered across the page.
    Similar to this there are Directory pages which present information in an irregular, 
    visually-organized, two-dimensional format. Directory pages are fairly common in financial 
@@ -61,16 +61,16 @@ comments: false
 
    <p align="center"><img src="{{ site.url }}/images/nuance-1.png" alt="Dp1" style="width:75%"></p>
 
-   <p align="justify">
-   * The text in these documents  is formally organized into sections and sub sections. There are 
+   * <p align="justify">
+   The text in these documents  is formally organized into sections and sub sections. There are 
    enumerated and bulleted lists which are often wrapped up to look like a paragraph. These are 
    quite common in Credit agreements which are full of clauses and in order to correctly extract 
    the underlying mathetical equation, we need to understand this sentence hierarchy in depth.</p> <br>
 
    <p align="center"><img src="{{ site.url }}/images/nuance-2.png" alt="Dp1" style="width:75%"></p>
    
-   <p align="justify"> 
-   * This snippet is full of hyperlinks. Since these documents are quite long, there is often a 
+   * <p align="justify"> 
+   This snippet is full of hyperlinks. Since these documents are quite long, there is often a 
    definition section present in the beginning of the document and then there are references to 
    those all over the documents. If we have sections and sub sections , we’ll also have references
    to them. In order to understand the text in detail we need to follow those references and get 
@@ -78,8 +78,8 @@ comments: false
 
    <p align="center"><img src="{{ site.url }}/images/nuance-3.png" alt="Dp1" style="width:75%"></p>
 
-   <p align="justify">
-   * Another interesting paradigm that you will find in financial documents is the notion of 
+   * <p align="justify">
+   Another interesting paradigm that you will find in financial documents is the notion of 
    temporality. There are inline edits and strikethroughs present in the text. If that was not 
    enough, often these documents are accompanied by amendments which play an important role in 
    understanding the bigger picture.  The problem even becomes more complicated when these 
