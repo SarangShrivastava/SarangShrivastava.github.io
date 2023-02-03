@@ -67,7 +67,7 @@ comments: false
    quite common in Credit agreements which are full of clauses and in order to correctly extract 
    the underlying mathetical equation, we need to understand this sentence hierarchy in depth.</p> <br>
 
-   <p align="center"><img src="{{ site.url }}/images/nuance-2.png" alt="Dp1" style="width:75%"></p>
+   <p align="center"><img src="{{ site.url }}/images/nuance-3.png" alt="Dp1" style="width:75%"></p>
    
    * <p align="justify"> 
    This snippet is full of hyperlinks. Since these documents are quite long, there is often a 
@@ -76,7 +76,7 @@ comments: false
    to them. In order to understand the text in detail we need to follow those references and get 
    the details out. </p> <br>
 
-   <p align="center"><img src="{{ site.url }}/images/nuance-3.png" alt="Dp1" style="width:75%"></p>
+   <p align="center"><img src="{{ site.url }}/images/nuance-2.png" alt="Dp1" style="width:75%"></p>
 
    * <p align="justify">
    Another interesting paradigm that you will find in financial documents is the notion of 
