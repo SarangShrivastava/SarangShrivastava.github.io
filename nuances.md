@@ -1,7 +1,7 @@
 ---
 layout: projects
 permalink: /nuances/
-title: Text is not Text: Nuances of Legal text
+title: Text is not Text- Nuances of Legal text
 tags: [nuances]
 modified: 26-7-2019
 comments: false
@@ -57,7 +57,7 @@ comments: false
    hand written text and identifying things like the signature blocks becomes crucial to figure 
    out if a given agreement is executed or not. </p>
 
-   <img src="{{ site.url }}/images/nuance-1.png" alt="Dp1" style="width:100%">
+   <img src="{{ site.url }}/images/nuance-1.png" alt="Dp1" style="width:75%">
 
    <p align="justify">
    The text in these documents  is formally organized into sections and sub sections. There are 
@@ -65,7 +65,7 @@ comments: false
    quite common in Credit agreements which are full of clauses and in order to correctly extract 
    the underlying mathetical equation, we need to understand this sentence hierarchy in depth.</p>
 
-   <img src="{{ site.url }}/images/nuance-2.png" alt="Dp1" style="width:100%">
+   <img src="{{ site.url }}/images/nuance-2.png" alt="Dp1" style="width:75%">
    
    <p align="justify"> 
    This snippet is full of hyperlinks. Since these documents are quite long, there is often a 
@@ -74,7 +74,7 @@ comments: false
    to them. In order to understand the text in detail we need to follow those references and get 
    the details out. </p>
 
-   <img src="{{ site.url }}/images/nuance-3.png" alt="Dp1" style="width:100%">
+   <img src="{{ site.url }}/images/nuance-3.png" alt="Dp1" style="width:75%">
 
    <p align="justify">
    Another interesting paradigm that you will find in financial documents is the notion of 
@@ -85,4 +85,4 @@ comments: false
    establish the notion of a main doc span and then attend to all the exhibits and amendments 
    that come in the later part of the document.</p>
 
-   <img src="{{ site.url }}/images/nuance-4.png" alt="Dp1" style="width:100%">
+   <img src="{{ site.url }}/images/nuance-4.png" alt="Dp1" style="width:75%">
