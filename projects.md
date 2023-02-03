@@ -7,29 +7,34 @@ modified: 26-7-2019
 comments: false
 ---
 
+### 3) [**Text is not Text : Nuances of legal text**](http://{{ site.url }}/nuances)<br>
+
+  <p align="center"><img src="{{ site.url }}/images/finance_nuance.png" alt="p1" style="width:70%"></p>
+
+
 ### 1) [**Extracting mathematical constraints from credit agreements**](http://{ site.url }}/negative-covenants)<br>
 
-   <p align="center"><img src="{{ site.url }}/images/negative_covenants_2.png" alt="Forest" style="width:70%"></p>
+   <p align="center"><img src="{{ site.url }}/images/negative_covenants_2.png" alt="p2" style="width:70%"></p>
 
 ### 2) [**Understanding and resolving hierarchical table structure**](http://{ site.url }}/fin-table)<br>
 
-   <p align="center"><img src="{{ site.url }}/images/table.png" alt="table" style="width:70%"></p>
+   <p align="center"><img src="{{ site.url }}/images/table.png" alt="p3" style="width:70%"></p>
 
-### 3) [**Text is not Text : Nuances of legal text**](http://{{ site.url }}/nuances)<br>
+[comment]: <> (### 3&#41; [**Text is not Text : Nuances of legal text**]&#40;http://{{ site.url }}/nuances&#41;<br>)
 
-  <p align="center"><img src="{{ site.url }}/images/finance_nuance.png" alt="Dp2" style="width:70%"></p>
+[comment]: <> (  <p align="center"><img src="{{ site.url }}/images/finance_nuance.png" alt="p4" style="width:70%"></p>)
 
 ### 4) [**Ternary relation extraction in prospectuses**](http://{{ site.url }}/relation)<br>
 
-  <p align="center"><img src="{{ site.url }}/images/relation-extraction-1.png" alt="Dp1" style="width:70%"></p>
+  <p align="center"><img src="{{ site.url }}/images/relation-extraction-1.png" alt="p5" style="width:70%"></p>
 
 ### 5) [**Stanza Graph Construction**](http://{{ site.url }}/stanza)<br>
 
-  <p align="center"><img src="{{ site.url }}/images/Stanza-2.png" alt="Forest" style="width:70%"></p>
+  <p align="center"><img src="{{ site.url }}/images/Stanza-2.png" alt="p6" style="width:70%"></p>
 
 ### 6) [**Reading order detection on Directory pages**](http://{{ site.url }}/directory)<br>
 
-  <p align="center"><img src="{{ site.url }}/images/directory-page-2.png" alt="Dp2" style="width:70%"></p>
+  <p align="center"><img src="{{ site.url }}/images/directory-page-2.png" alt="p7" style="width:70%"></p>
 
 
 
