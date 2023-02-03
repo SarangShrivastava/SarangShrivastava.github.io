@@ -11,7 +11,7 @@ comments: false
 
    <p align="center"><img src="{{ site.url }}/images/negative_covenants_2.png" alt="Forest" style="width:70%"></p>
 
-### 2) [**Understanding and resolving hierarchical table structure**](http://{ site.url }}/table)<br>
+### 2) [**Understanding and resolving hierarchical table structure**](http://{ site.url }}/fin-table)<br>
 
    <p align="center"><img src="{{ site.url }}/images/table.png" alt="table" style="width:70%"></p>
 
