@@ -15,6 +15,11 @@ comments: false
 
   <p align="center"><img src="{{ site.url }}/images/negative_covenants_2.png" alt="p1" style="width:70%"></p>
 
+### 3) [**Understanding and resolving hierarchical table structure**](http://{{ site.url }}/fin-table)<br>
+
+  <p align="center"><img src="{{ site.url }}/images/table.png" alt="p1" style="width:70%"></p>
+
+
 
 [comment]: <> (### 1&#41; [**Extracting mathematical constraints from credit agreements**]&#40;http://{ site.url }}/negative-covenants&#41;<br>)
 
