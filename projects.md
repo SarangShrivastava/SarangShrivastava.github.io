@@ -13,7 +13,7 @@ comments: false
 
 ### 2) [**Extracting mathematical constraints from credit agreements**](http://{{ site.url }}/negative-covenants)<br>
 
-  <p align="center"><img src="{{ site.url }}/images/negative_covenants_2.png" alt="p1" style="width:70%"></p>
+  <p align="center"><img src="{{ site.url }}/images/nc1.png" alt="p1" style="width:70%"></p>
 
 [comment]: <> (### 1&#41; [**Extracting mathematical constraints from credit agreements**]&#40;http://{ site.url }}/negative-covenants&#41;<br>)
 

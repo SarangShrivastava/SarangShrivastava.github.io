@@ -8,7 +8,7 @@ comments: false
 ---
 
 <p align="center">
-<img src="{{ site.url }}/images/nc1.png" alt="N1" style="width:75%"></p> <br>
+<img src="{{ site.url }}/images/nc1.png" alt="N1" style="width:100%"></p> <br>
 
 <p align="justify">
 A Credit Agreement is a legally-binding contract, documenting the terms of a loan agreement; it is 
@@ -21,14 +21,14 @@ They are laid out in a way that is precise and unambiguous, which gives rise to 
 clauses used to define these terms. </p> <br>
 
 <p align="center">
-<img src="{{ site.url }}/images/nc3.png" alt="N2" style="width:75%"></p> <br>
+<img src="{{ site.url }}/images/nc3.png" alt="N2" style="width:70%"></p> <br>
 
 <p align="justify">
 Lets have a look at one of these complex clauses in detail and see how we we can go about this process of
 converting them into machine readable forms.</p> <br>
 
 <p align="center">
-<img src="{{ site.url }}/images/nc2.png" alt="N2" style="width:75%"></p> <br>
+<img src="{{ site.url }}/images/nc2.png" alt="N2" style="width:70%"></p> <br>
 
 <p align="justify">
 The first step is to recognize the individual elements that represent the structure of the constraint. 
@@ -52,7 +52,7 @@ solution. For Temporality, dictionary spotting is not very straightforward and h
 to train a sequence tagger for it.</p> <br>
 
 <p align="center">
-<img src="{{ site.url }}/images/negative_covenants_4.png" alt="N4" style="width:100%"></p><br>
+<img src="{{ site.url }}/images/negative_covenants_4.png" alt="N4" style="width:70%"></p><br>
 
 <p align="justify">
 Now once we have the individual elements extracted, we need to establish the relation, or the 
@@ -81,4 +81,4 @@ terms with capital lease over $50 million, Show me a tech company with a leverag
 Given these 50 companies, do they contain a cap on the cost savings ? </p> <br>
 
 <p align="center">
-<img src="{{ site.url }}/images/negative_covenants_6.png" alt="N6" style="width:100%"></p>
+<img src="{{ site.url }}/images/negative_covenants_6.png" alt="N6" style="width:70%"></p>
