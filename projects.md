@@ -11,7 +11,7 @@ comments: false
 
   <p align="center"><img src="{{ site.url }}/images/finance_nuance.png" alt="p1" style="width:70%"></p>
 
-### 2) [**Extracting mathematical constraints from credit agreements**](http://{{ site.url }}/negative-covenants)<br>
+### 2) [**Extracting mathematical constraints from Credit Agreements**](http://{{ site.url }}/negative-covenants)<br>
 
   <p align="center"><img src="{{ site.url }}/images/nc1.png" alt="p1" style="width:70%"></p>
 
@@ -37,7 +37,7 @@ comments: false
 
 ### 4) [**Reading order detection on Directory pages**](http://{{ site.url }}/directory)<br>
 
-  <p align="center"><img src="{{ site.url }}/images/directory-page-2.png" alt="p7" style="width:70%"></p>
+  <p align="center"><img src="{{ site.url }}/images/directory-page-2.png" alt="p7" style="width:60%"></p>
 
 ### 5) [**Understanding and resolving hierarchical table structure**](http://{{ site.url }}/fin-table)<br>
 
