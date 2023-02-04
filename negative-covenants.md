@@ -34,19 +34,19 @@ converting them into machine readable forms.</p> <br>
 The first step is to recognize the individual elements that represent the structure of the constraint. 
 The Relation - "not to exceed", the Operator, "the greater of" and "the lesser of" , 
 the Governors - "Consolidated Total Assets" and "Consolidated Adjusted EBIDTA", the Objects - "$100,000,000", 
-"11.5%", "45%" and "$200m". All these elements can be extracted by simple methods of dictionary spotting or by 
-training much complex sequence taggers. We can train multiple individual sequence taggers, or we can 
-train a single sequence tagger jointly modelling the various elements. 
-We can use language models which are pretrained on general legal text to further improve the accuracy of
-our sequence tagger. We can also try to pre-train a language model specifically on Credit agreements. There are 
-multiple ways to proceed further. We are often faced with this dilemma and a solution to this can be by quickly building
-a baseline solution and iterating upon which can help us benchmark the improvements that the advanced 
-techniques might provide us.  </p> <br>
+"11.5%", "45%" and "$200m". All these elements can be extracted by simple methods like dictionary spotting or by 
+training much complex sequence taggers. We can train multiple individual sequence taggers, or jointly train a sequence 
+tagger which models all the above elements. We can use language models which are pretrained on public 
+legal or we can pre-train a language model specifically on Credit agreements from scratch to further improve the accuracy of
+our sequence tagger. There are 
+multiple ways to proceed further, which one should we chose? We are often faced with this dilemma and the solution for this
+is to quickly build a baseline solution and iterate upon. This helps us to benchmark the improvements which the advanced 
+techniques might provide.  </p> <br>
 
 <p align="justify">
-Preliminary data analysis can provide us useful insights for modelling our solutions. Ex - when we see 
+Preliminary data analysis can provide useful insights for modelling our solutions. Ex - when we see 
 an Object, we actually know that there is a Governor, and if the object is a percentage, the 
-recognition can benefit from joint inference by a sequence tagger. Adopting the simple method of 
+recognition can benefit from joint inference by a sequence tagger. Adopting a simple method of 
 dictionary spotting for the governors, and regular expressions for the Objects can be a good baseline
 solution. For Temporality, dictionary spotting is not very straightforward and hence we would want 
 to train a sequence tagger for it.</p> <br>
@@ -55,15 +55,15 @@ to train a sequence tagger for it.</p> <br>
 <img src="{{ site.url }}/images/negative_covenants_4.png" alt="N4" style="width:70%"></p><br>
 
 <p align="justify">
-Now once we have the individual elements extracted, we need to establish the relation, or the 
+Once the individual elements are extracted, we need to establish the relation, or the 
 interdependencies between them. Objects belong to the Operators, Operators need to be 
 linked to a Relation. We can train a relation extraction model by constructing our own features and
 feeding them to a random forest based classifier, or we can train a more complex relation extraction model
-sitting on top of a BERT base backbone. An important thing we need to understand is, are they nested, or are they at 
-the same level. Sometimes there are markers in the text - "(x)", "(y)", "(z)" which can help 
-provide soft signals for our algorithm. But not all the cases are explicitly marked with starts 
-of enumerated lists, Ex - the content of node z is not marked, there are two elements in that which 
-are not segregated explicitly by the markers. We can train a classifier that does a binary decision on 
+sitting on top of a BERT base backbone. An important thing that we need to understand is, Are these Objects nested, or are they at 
+the same level. Sometimes there are markers in the text - "(x)", "(y)", "(z)" which can provide soft signals for our
+algorithm. But not all the cases are explicitly marked, Ex - the content of node z is not marked, 
+there are two elements in that node which 
+are not segregated explicitly by the markers. We can train a classifier that does a binary decision for 
 each of these questions. </p> <br>
 
 <p align="justify">
@@ -74,8 +74,8 @@ title stack - the section hierarchy of the document where this text
 is being talked about for adding additional context for the Type and Provision classifier. </p> <br>
 
 <p align="justify">
-We can provide easy access to the extracted terms in a Web UI. We can show all the terms we are 
-extracting them in a nice tabular view and save analysts a lot of time and money. We can even 
+We can provide easy access of the extracted terms in a Web UI. We can show all the terms we are 
+extracting in a nice tabular view and save analysts a lot of time and money. We can even 
 do a powerful semantic search over multiple Credit Agreements. Some example queries could be - Show me all 
 terms with capital lease over $50 million, Show me a tech company with a leverage maintenance covenant, 
 Given these 50 companies, do they contain a cap on the cost savings ? </p> <br>
