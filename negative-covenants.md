@@ -21,14 +21,14 @@ They are laid out in a way that is precise and unambiguous, which gives rise to 
 clauses used to define these terms. </p> <br>
 
 <p align="center">
-<img src="{{ site.url }}/images/nc2.png" alt="N2" style="width:75%"></p> <br>
+<img src="{{ site.url }}/images/nc3.png" alt="N2" style="width:75%"></p> <br>
 
 <p align="justify">
 Lets have a look at one of these complex clauses in detail and see how we we can go about this process of
 converting them into machine readable forms.</p> <br>
 
 <p align="center">
-<img src="{{ site.url }}/images/nc3.png" alt="N2" style="width:75%"></p> <br>
+<img src="{{ site.url }}/images/nc2.png" alt="N2" style="width:75%"></p> <br>
 
 <p align="justify">
 The first step is to recognize the individual elements that represent the structure of the constraint. 
