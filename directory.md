@@ -55,4 +55,4 @@ in pink and the bodies which you see in blue. Post this, we used a bottom up app
 segmented text and constructed this tree.</p> <br>
 
 <p align="center">
-<img src="{{ site.url }}/images/directory-page-1.png" alt="Dp1" style="width:75%"></p>
+<img src="{{ site.url }}/images/directory-page-2.png" alt="Dp1" style="width:75%"></p>
