@@ -27,7 +27,7 @@ performance across many documentAI datasets. But, how much better can LayoutLM p
 to BERT on this specific task? Is LayoutLM needed to detect the type of the cell or its real value is only
 realized when we want to understand the hierarchy between column headers? We were curious about these questions
 too. After a lot of experimentation, we found answers to some of these questions. We have documented our results and 
-findings in this paper [Here](https://openreview.net/pdf?id=B393CzcykVJ). 
+findings in this paper [here](https://openreview.net/pdf?id=B393CzcykVJ). 
 
 
 
