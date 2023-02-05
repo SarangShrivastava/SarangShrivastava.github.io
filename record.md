@@ -29,16 +29,8 @@ comments: false
    hand written text and identifying things like the signature blocks becomes crucial to figure 
    out if a given agreement is executed or not. </p> <br>
 
-   <p align="center"><img src="{{ site.url }}/images/record_3.png" alt="Dp1" style="width:75%"></p>
+   <p align="center"><img src="{{ site.url }}/images/record_6.png" alt="Dp1" style="width:75%"></p>
 
-   * <p align="justify">
-   The text in these documents  is formally organized into sections and sub sections. There are 
-   enumerated and bulleted lists which are often wrapped up to look like a paragraph. These are 
-   quite common in Credit agreements which are full of clauses and in order to correctly extract 
-   the underlying mathetical equation, we need to understand this sentence hierarchy in depth.</p> <br>
-
-   <p align="center"><img src="{{ site.url }}/images/record_4.png" alt="Dp1" style="width:75%"></p>
-   
    * <p align="justify"> 
    This snippet is full of hyperlinks. Since these documents are quite long, there is often a 
    definition section present in the beginning of the document and then there are references to 

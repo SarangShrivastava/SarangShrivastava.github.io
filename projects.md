@@ -27,7 +27,7 @@ comments: false
 
 [comment]: <> (  <p align="center"><img src="{{ site.url }}/images/finance_nuance.png" alt="p4" style="width:70%"></p>)
 
-### 3) [**Record Linking between Databases**](http://{{ site.url }}/fin-table)<br>
+### 3) [**Record Linking between Databases**](http://{{ site.url }}/record)<br>
 
   <p align="center"><img src="{{ site.url }}/images/record.png" alt="p1" style="width:70%"></p>
 
@@ -43,7 +43,7 @@ comments: false
 
   <p align="center"><img src="{{ site.url }}/images/directory-page-2.png" alt="p7" style="width:70%"></p>
 
-### 6) [**Understanding and resolving hierarchical table structure**](http://{{ site.url }}/record)<br>
+### 6) [**Understanding and resolving hierarchical table structure**](http://{{ site.url }}/fin-table)<br>
 
   <p align="center"><img src="{{ site.url }}/images/table.png" alt="p1" style="width:90%"></p>
 
