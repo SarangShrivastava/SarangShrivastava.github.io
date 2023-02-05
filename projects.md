@@ -43,6 +43,10 @@ comments: false
 
   <p align="center"><img src="{{ site.url }}/images/table.png" alt="p1" style="width:70%"></p>
 
+### 5) [**Record Linking between Databases**](http://{{ site.url }}/fin-table)<br>
+
+  <p align="center"><img src="{{ site.url }}/images/record.png" alt="p1" style="width:70%"></p>
+
 
 
 
