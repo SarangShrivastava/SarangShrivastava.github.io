@@ -27,7 +27,11 @@ comments: false
 
 [comment]: <> (  <p align="center"><img src="{{ site.url }}/images/finance_nuance.png" alt="p4" style="width:70%"></p>)
 
-### 3) [**From Structure to Knowledge**](http://{{ site.url }}/relation)<br>
+### 3) [**Record Linking between Databases**](http://{{ site.url }}/fin-table)<br>
+
+  <p align="center"><img src="{{ site.url }}/images/record.png" alt="p1" style="width:70%"></p>
+
+### 4) [**From Structure to Knowledge**](http://{{ site.url }}/relation)<br>
 
   <p align="center"><img src="{{ site.url }}/images/relation-extraction-0.png" alt="p5" style="width:70%"></p>
 
@@ -35,17 +39,15 @@ comments: false
 
 [comment]: <> (  <p align="center"><img src="{{ site.url }}/images/Stanza-2.png" alt="p6" style="width:70%"></p>)
 
-### 4) [**Reading order detection on Directory pages**](http://{{ site.url }}/directory)<br>
+### 5) [**Reading order detection on Directory pages**](http://{{ site.url }}/directory)<br>
 
   <p align="center"><img src="{{ site.url }}/images/directory-page-2.png" alt="p7" style="width:70%"></p>
 
-### 5) [**Understanding and resolving hierarchical table structure**](http://{{ site.url }}/fin-table)<br>
+### 6) [**Understanding and resolving hierarchical table structure**](http://{{ site.url }}/record)<br>
 
-  <p align="center"><img src="{{ site.url }}/images/table.png" alt="p1" style="width:70%"></p>
+  <p align="center"><img src="{{ site.url }}/images/table.png" alt="p1" style="width:90%"></p>
 
-### 5) [**Record Linking between Databases**](http://{{ site.url }}/fin-table)<br>
 
-  <p align="center"><img src="{{ site.url }}/images/record.png" alt="p1" style="width:70%"></p>
 
 
 
