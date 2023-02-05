@@ -52,7 +52,8 @@ information. </p> <br>
 We solved this problem of parsing a directory page by first identifying these specific pages in the
 documents using a random forest model, segmenting the text in those pages into 2 parts – specifically headers which you see 
 in pink and the bodies which you see in blue. Post this, we used a bottom up approach of parsing this
-segmented text and constructed this tree.</p> <br>
+segmented text and constructed this tree. For a more detailed version about this, refer to our paper
+[here](https://arxiv.org/pdf/2111.12317.pdf). </p> <br>
 
 <p align="center">
 <img src="{{ site.url }}/images/directory-page-2.png" alt="Dp1" style="width:75%"></p>
