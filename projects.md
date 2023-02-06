@@ -1,7 +1,7 @@
 ---
 layout: projects
 permalink: /projects/
-title: Projects and Blogs
+title: Selected Projects and Blogs
 tags: [projects]
 modified: 26-7-2019
 comments: false
