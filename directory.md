@@ -13,7 +13,7 @@ comments: false
 The determination of the reading sequence of text is fundamental to document understanding. 
 This problem is easily solved in pages where the text is organized into a sequence of lines and 
 vertical alignment runs the height of the page (producing multiple columns which can be read from 
-left to right). This is a situation -- the directory page parsing problem -- where information is
+left to right). We will talk about a situation -- the directory page parsing problem -- where information is
 presented on the page in an irregular, visually-organized, two-dimensional format. Directory pages 
 are fairly common in financial prospectuses and carry information about organizations, their addresses
 and relationships that is key to business tasks in client onboarding. Interestingly, directory pages 
@@ -44,15 +44,15 @@ as a sequence, but rather as a tree, (the reading tree) as illustrated in the fi
 the hierarchy captures that the header of a parent node applies also to the child nodes.</p> <br>
 
 <p align="justify">
-Once we nail this problem, relation extraction on these pages becomes easy as the  root to leaf path 
-of the directory tree that we see on the right gives us the natural reading order for a block of 
+Once we nail this problem, relation extraction on these pages becomes easy as the root to leaf path 
+of the directory tree that we see below gives us the natural reading order for a block of 
 information. </p> <br>
 
 <p align="justify">
-We solved this problem of parsing a directory page by first identifying these specific pages in the
-documents using a random forest model, segmenting the text in those pages into 2 parts – specifically headers which you see 
-in pink and the bodies which you see in blue. Post this, we used a bottom up approach of parsing this
-segmented text and constructed this tree. For a more detailed version about this, refer to our paper
+We can solve this problem of parsing a directory page by first identifying these specific pages in the
+documents using a classification model, followed by segmenting the text in those pages into 2 parts – specifically headers which you see 
+in pink and the bodies which you see in blue. Post this, we can use a bottom up approach of parsing this
+segmented text and construct this tree. For a more detailed version, refer to our paper
 [here](https://arxiv.org/pdf/2111.12317.pdf). </p> <br>
 
 <p align="center">
