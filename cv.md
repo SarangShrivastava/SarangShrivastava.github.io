@@ -12,4 +12,4 @@ comments: false
 
 <!-- You can download my full CV <a href="https://drive.google.com/file/d/1zjMHvDpGan9lcDa0DjKoV2LJD5t39vbm/view?usp=sharing">here</a> -->
 
-You can download my [full CV here](Sarang_Shrivastava_resume_new(1).pdf)
+You can download my [full CV here](Sarang_Shrivastava_resume_new.pdf)
