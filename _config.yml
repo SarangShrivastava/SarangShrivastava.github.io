@@ -26,13 +26,13 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Projects
-    url: /projects/
+    url: projects/
 
   - title: Curriculum
-    url: /cv/
+    url: cv/
 
   - title: Publications
-    url: /publications/
+    url: publications/
 
 #  - title: Blog
 #    url: /blog/

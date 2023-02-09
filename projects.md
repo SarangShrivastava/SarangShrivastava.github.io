@@ -1,6 +1,6 @@
 ---
 layout: projects
-permalink: /projects/
+permalink: projects/
 title: Selected Projects and Blogs
 tags: [projects]
 modified: 26-7-2019
