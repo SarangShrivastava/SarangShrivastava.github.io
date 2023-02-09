@@ -7,7 +7,7 @@ modified: 26-7-2019
 comments: false
 ---
 
-### 1) [**Text is not Text : Nuances of legal text**](http://{{ site.url }}/nuances)<br>
+### 1) [**Text is not Text : Nuances of legal text**](https://medium.com/@sarang-ai/text-is-not-text-b95e3435844c)<br>
 
   <p align="center"><img src="{{ site.url }}/images/finance_nuance.png" alt="p1" style="width:70%"></p>
 
