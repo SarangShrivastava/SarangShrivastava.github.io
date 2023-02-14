@@ -11,7 +11,7 @@ comments: false
 
   <p align="center"><img src="{{ site.url }}/images/finance_nuance.png" alt="p1" style="width:70%"></p>
 
-### 2) [**Extracting mathematical constraints from Credit Agreements**](http://{{ site.url }}/negative-covenants)<br>
+### 2) [**Extracting mathematical constraints from Credit Agreements**](https://sarang-ai.medium.com/extracting-mathematical-constraints-from-credit-agreements-3a0c49790e1a)<br>
 
   <p align="center"><img src="{{ site.url }}/images/nc1.png" alt="p1" style="width:70%"></p>
 
