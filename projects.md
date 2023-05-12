@@ -19,7 +19,7 @@ comments: false
 
   <p align="center"><img src="{{ site.url }}/images/finance_nuance.png" alt="p1" style="width:70%"></p>
 
-### 4) [**Understanding and resolving hierarchical table structure**](http://{{ site.url }}/fin-table)<br>
+### 4) [**Understanding and resolving hierarchical table structure**](https://sarang-ai.medium.com/harnessing-the-power-of-layout-aware-neural-models-for-complex-table-structure-resolution-b1923e9909e1)<br>
 
   <p align="center"><img src="{{ site.url }}/images/table.png" alt="p1" style="width:90%"></p>
 
