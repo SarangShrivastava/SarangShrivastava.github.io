@@ -21,10 +21,6 @@ extraction, learning to rank, layout-aware language models and tabular structure
 understanding.
 <br />
 
-<br />
-I want to leverage visual, structural and textual information in natural language and feed it into machines to help them learn better representations and reason with text just like a human does.
-<br />
-
 <br />I have been fortunate enough to work closely with excellent researchers and mentors in this space: <a href="https://scholar.google.com/citations?user=yT1DBNsAAAAJ&hl=en" target="_blank">Dr. Vijay Saraswat</a>, <a href="https://scholar.google.co.in/citations?user=odKVNH0AAAAJ&hl=en" target="_blank">Dr. Johannes Hoffart</a> and <a href="https://scholar.google.de/citations?user=vJfDxrIAAAAJ&hl=en" target="_blank">Dr. Luciano Del Corro</a>. 
 
 Feel free to drop me an email for discussions, collaborations or just chatting! 
